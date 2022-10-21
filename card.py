@@ -1,5 +1,5 @@
 from credit_card_checker import CreditCardChecker
-
+from time import *
 from colorama import Fore
 print(Fore.GREEN + 'A  program that genrates text into pyfiglet  made by seandadonntech , technio#7716, Copyright (c) 2022, lilcryptotech All rights reserved. ')
 
@@ -20,4 +20,5 @@ else:
 #add loop when i get home so program could restart
 #this is the github version pls don't forget to add the copy right
 #sooon program would see the card bank
+sleep(150)
 

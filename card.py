@@ -21,4 +21,4 @@ else:
 #this is the github version pls don't forget to add the copy right
 #sooon program would see the card bank
 sleep(150)
-
+#sleep functions makes sure your shit wont close

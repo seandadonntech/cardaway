@@ -1,2 +1,2 @@
 credit-card-checker
-#use pip install credit-card-checker
+ colorama

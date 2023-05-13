@@ -13,5 +13,5 @@ cd cardway
 
 python3 setup.py (1 for install 2 to ignore 3 to uninstall)
 
-python3 card.py to run it(now udpdates will come soon
+python3 card.py to run it(new udpdates will come soon)
 

@@ -1,4 +1,4 @@
-# idaway
+# cardaway
 A credit validated checker
 made in python
 made by seandadonntech

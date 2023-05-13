@@ -12,5 +12,6 @@ git clone https://github.com/seandadonntech/cardaway
 cd cardway
 
 python3 setup.py (1 for install 2 to ignore 3 to uninstall)
+
 python3 card.py to run it(now udpdates will come soon
 

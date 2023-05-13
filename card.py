@@ -1,8 +1,14 @@
 from credit_card_checker import CreditCardChecker
 from time import *
+import pyfiglet
 from colorama import Fore
-print(Fore.GREEN + 'A  program that genrates text into pyfiglet  made by seandadonntech , technio#7716, Copyright (c) 2022, lilcryptotech All rights reserved. ')
 
+print(Fore.GREEN + 'A  program made to check to see if A card number is valid  made by seandadonntech , technio#7716, Copyright (c) 2022, lilcryptotech All rights reserved. ')
+print('-' * 129)
+result = pyfiglet.figlet_format("card number checker", font = "slant" )
+print(result)
+
+print("-"* 129)
 
 input = input("Enter a card number or type help:\n")
 card = CreditCardChecker(f'{input}').valid()
@@ -13,12 +19,13 @@ if input == "help":
 if card == True: #if card is true the number is correct  or valid
  print(f"{input} is a valid card number")
 elif card == False: # if card is
- print(f" {input} is not a card number")
-
+ print(Fore.RED + f" {input} is not valid number")#this wouls never ben used
 else:
- print(f" {input}  this number is not valid at all ")
+ print(Fore.YELLOW + f" {input}  this is not a card number at all ") # this part may not work
+
+
 #add loop when i get home so program could restart
-#this is the github version pls don't forget to add the copy right
 #sooon program would see the card bank
 sleep(150)
-#sleep functions makes sure your shit wont close
+
+
